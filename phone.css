@@ -3,7 +3,10 @@
 /* Color Scheme: #ff0072, #ffa500, #fbfbfb, #ff54bb, #fffff, #ffaacc*/
 /* Sets background gradient and base text color for body */
 body {
-    background: linear-gradient(90deg, #ff0072 36%, #ffa500 100%);
+    background: -moz-linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* supports firefox Gradient background */
+    background: -webkit-linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* supports Chrome, Safari Gradient background */
+    background: -o-linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* supports opera Gradient background */
+    background: linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* standard Gradient background */
     color: #fbfbfb;
 }
 

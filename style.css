@@ -9,7 +9,10 @@
 
 body {
     min-height: 100%;
-    background: linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* Gradient background */
+    background: -moz-linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* supports firefox Gradient background */
+    background: -webkit-linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* supports Chrome, Safari Gradient background */
+    background: -o-linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* supports opera Gradient background */
+    background: linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* standard Gradient background */
     color: #ffffff; /* text color */
 }
 
