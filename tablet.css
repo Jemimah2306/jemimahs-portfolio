@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+/* Color Scheme: #ff0072, #ffa500, #fbfbfb, #ff54bb, #fffff */
+body {
+    min-height: 100%; /* Ensure body takes full height of viewport */
+    margin: 0; /* Remove default margin */
+    background: linear-gradient(90deg, #ff0072 36%, #ffa500 100%); /* Gradient background for tablet */
+    color: #fbfbfb; /* text color */
+    display: block;
+}
+
+/* WRAPPER */
+#wrapper {
+    padding: 15px; /* Internal spacing */
+    font-size: 25px; /* Adjust font size for tablet screens */
+}
+
+/* CONTACT FORM COLUMNS */
+#right-column {
+    float: right; /* Position right column */
+    color: #000000;
+    width: 100%;  /* Full width on tablet */
+    height: auto; /* Let height adjust to content */
+    margin-bottom: 20px; /* Spacing below column */
+    background-color: #ff79af;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+    border-radius: 11px; /* Rounded corners */
+}
+
+#left-column {
+    float: left; /* Position left column */
+    color: #000000; 
+    text-align: center;
+    width: 100%; /* full width for tablet */
+    height: auto; /* Let height adjust */
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+}
+
+/* BUTTON STYLING */
+.button {
+    background-color: #ff0072;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+/* Header adjustments */
+.header h1 {
+    font-size: 28px; /* Tablet heading size */
+}
+
+.header h3 {
+    font-size: 20px; /* Tablet subheading size */
+}
+
+/* NAVIGATION (same as desktop) */
+nav {
+    text-align: right; /* Align menu links to right */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+    font-weight: bold;
+}
+
+/* ABOUT SECTION PARAGRAPHS */
+#about p {
+    font-size: 16px; /* Adjust font size for tablet */
+}
+
+/* PHOTO WRAPPER */
+.photo-wrapper {
+    width: 180px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.3); /* background circle color */
+    border-radius: 50%; /* makes it a perfect circle */
+    margin-right: 15px;
+    text-align: center;
+    position: relative; /* Position image inside wrapper */
+}
+
+.photo-wrapper img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%; /* keeps image circular */
+    position: absolute; /* sit over wrapper */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* center image inside wrapper */
+}
+
+/* VIDEO STYLING */
+video {
+    width: 360px; /* Tablet width */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 8px; /* rounded corners */
+}
+
+/* FONT */
+.alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* MOBILE TAP FEEDBACK */
+nav a:active {
+    background-color: #FFA500;
+    color: #fff;
+}
+
+/* FOOTER STYLING */
+footer {
+    clear: both; /* Ensure footer is below floated elements */
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* specific footers */
+#home-footer {
+    position: fixed; /* sticks to bottom */
+    bottom: 0;
+    left: 0;
+}
+
+#about-footer {
+    margin-top: 20px; /* Spacing for about page */
+}
+
+#contact-footer {
+    margin-top: 40px; /* Spacing for contact page */
+}
+
+#projects {
+    width: 100%;
+    overflow: hidden; /* contain floated cards */
+}
+
+/* Project cards on tablets: 2 per row */
+.flip-card {
+    float: left;
+    width: 48%; /* 2 cards per row */
+    height: auto; /* let height adjust to content */
+    margin: 1%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Both front and back stacked */
+.flip-card-front,
+.flip-card-back {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* FRONT CARD STYLING */
+.flip-card-front {
+    background-color: #fff;
+    color: #000;
+}
+
+/* BACK CARD STYLING */
+.flip-card-back {
+    background-color: #ff0072;
+    color: #fff;
+    margin-top: 10px; /* space between front and back */
+}

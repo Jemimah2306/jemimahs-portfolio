@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- Sets the viewport to device width and initial zoom level for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- full-size monitor style sheet-->
+    <link href="style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <!-- phone style sheet-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+
+<body>
+    <!-- Wrapper for entire page content -->
+    <div id="wrapper">
+        <!-- Header section with page title and navigation -->
+        <header>
+            <h1>About Me</h1>
+            <nav>
+                <a href="index.html">Home</a> 
+            </nav>
+        </header>
+
+        <!-- Main content area -->
+        <article>
+            <!-- About Me section -->
+            <section id="about">
+                <div class="about-content">
+                    <div class="media-wrapper">
+                        <!-- Profile photo -->
+                        <div class="photo-wrapper">
+                            <img src="myphoto.jpg" alt="My Photo" width="200">
+                        </div>
+
+                        <!-- Introduction text -->
+                        <br><br><br>
+                        <p>Hi! I'm Jemimah Adamu. I've created a short introduction video</p>
+                        <p>so you can get to know me a little better. In it, I'll share my</p>
+                        <p>passions, goals, and a bit about what I enjoy doing.</p>
+                    </div>
+                </div>
+
+                <!-- Video wrapper -->
+                <div class="video-wrapper">
+                    <video controls preload poster="poster.jpg" width="400">
+                        <!-- Video sources in MP4 and OGV formats -->
+                        <source src="introvideo.mp4" type="video/mp4">
+                        <source src="introvideo.ogv" type="video/ogg">
+                        <!-- Fallback text if video not supported -->
+                        Your browser does not support the video tag.
+                        <!-- Button to play or pause the video using the playPause() JavaScript function -->
+                        <button onclick="playPause()">Play or pause the Video</button>
+                    </video>
+                </div>
+            </section>
+        </article>
+        <!-- Footer section -->
+        <footer id="about-footer">
+            <p>Contact me at <a href="mailto:jemimah.adamu@ontariotechu.net">jemimah.adamu@ontariotechu.net</a></p>
+            <p>&copy; 2025 Jemimah Adamu — All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

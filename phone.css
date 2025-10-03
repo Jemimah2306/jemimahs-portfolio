@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/* Color Scheme: #ff0072, #ffa500, #fbfbfb, #ff54bb, #fffff */
+/* Sets background gradient and base text color for body */
+body {
+    background: linear-gradient(90deg, #ff0072 36%, #ffa500 100%);
+    color: #fbfbfb;
+}
+
+/* Wrapper contains all page content and adds padding + font size */
+#wrapper {
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* Header text sizes */
+.header h2 {
+    font-size: 24px;
+}
+
+.header h3 {
+    font-size: 18px;
+}
+
+/* Custom font class */
+.alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* About section paragraph style for mobile/narrow screens */
+#about p {
+    font-size: 14px;
+    text-align: center; /* center text on small screens */
+}
+
+/* Circle wrapper for profile photo */
+.photo-wrapper {
+    width: 140px;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.3); /* background circle color */
+    border-radius: 50%; /* makes it a perfect circle */
+    margin: 0 auto 15px; /* center horizontally and add bottom spacing */
+    text-align: center; 
+    position: relative; /* allows absolute positioning for image inside */
+}
+
+/* Profile image styling inside wrapper */
+.photo-wrapper img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* keeps image circular */ 
+    position: absolute; /* sit on top of background */ 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* center image inside wrapper */
+}
+
+/* Video adjustments for mobile: full width with max size and shadow */
+video {
+    width: 100%; /* full width of screen */
+    max-width: 300px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4); 
+    border-radius: 8px; /* rounded corners */
+}
+
+/* Right column adjustments for stacked layout on mobile */
+#right-column {
+    float: right;
+    color: #000000;
+    width: 100%; /* full width on mobile */
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #ff79af;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 11px;
+}
+
+/* Left column adjustments for stacked layout on mobile */
+#left-column {
+    float: left;
+    color: #000000;
+    text-align: center;
+    width: 100%; /* full width on mobile */
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 11px;
+}
+
+/* Button styling for forms */
+.button {
+    background-color: #ff0072;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 90%; /* full width on mobile */
+}
+
+/* NAVIGATION */
+nav {
+    text-align: right; /* right-align nav links */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border-radius: 12px;
+    background: rgba(255, 0, 140);
+    font-weight: bold;
+}
+
+/* Mobile tap/focus feedback for nav links */
+nav a:active,
+nav a:focus {
+    background-color: #FFA500;
+    color: #fff;
+}
+
+
+/* FOOTER */
+footer {
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    position: fixed;  
+    bottom: 0;
+}
+
+/* specific footers */
+#home-footer {
+    position: fixed;   /* sticks to bottom */
+    bottom: 0;
+    left: 0;
+}
+
+#about-footer {
+    margin-top: 20px;  /* spacing for stacked layout */
+}
+
+#contact-footer {
+    margin-top: 40px;
+}
+
+/* Projects container to hold all project cards and clear floats */
+#projects { 
+    width: 100%;
+    overflow: hidden; /* contain floated cards */
+}
+
+/* Project cards on phones: 1 per row */
+.flip-card {
+    float: none;      /* remove float so cards stack */
+    width: 100%;      /* full width */
+    height: auto;     /* adjust height to content */
+    margin: 0 0 20px 0; /* space between cards */
+    position: relative;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* Both front and back stacked */
+.flip-card-front,
+.flip-card-back {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* Front face of project card */
+.flip-card-front {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Back face of project card */
+.flip-card-back {
+    background-color: #ff0072;
+    color: #fff;
+    margin-top: 10px; /* space between front and back */
+}

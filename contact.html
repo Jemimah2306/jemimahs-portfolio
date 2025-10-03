@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Sets the viewport to the device width and initial zoom level for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <!-- full-size monitor style sheet-->
+    <link href="style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <!-- phone style sheet-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+
+<body>
+    <!-- Wrapper for the whole page -->
+    <div id="wrapper">
+        <!-- Page header including title and navigation -->
+        <header>
+            <h1>Contact Me</h1>
+            <nav>
+                <a href="index.html">Home</a> <!-- Link to homepage -->
+            </nav>
+        </header>
+
+        <!-- Main content area -->
+        <article>
+            <!-- Left column with contact info -->
+            <div id="left-column">
+                <section>
+                    <h2>Get in Touch</h2>
+                    <p>If you have any inquiries or would like to</p>
+                    <p>say hi,please use the contact form</p><br>
+                    <p>Email: <a href="mailto:jemimah.adamu@ontariotechu.net">jemimah.adamu@ontariotechu.net</a></p>
+                </section>
+            </div>
+
+            <!-- Right column with contact form -->
+            <div id="right-column">
+                <section>
+                    <form action="mailto:jemimah.adamu@ontariotechu.net" method="post" enctype="text/plain">
+                        <!-- Name fields for the contact form -->
+                        <p>
+                            <label for="Firstname">First Name:</label>
+                            <input type="text" name="Firstname" id="Firstname" required>
+                            <label for="Lastname">Last Name:</label>
+                            <input type="text" name="Lastname" id="Lastname" required>
+                        </p>
+                        <!-- Email field for the contact form -->
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required>
+                        </p>
+                        <!-- phone field for the contact form -->
+                        <p>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+                        </p>
+                        <!-- message textarea for the contact form -->
+                        <p>
+                            <label for="message">Message:</label><br>
+                            <textarea name="message" id="message" rows="6" cols="40" required></textarea>
+                        </p><br><br>
+
+                        <!-- form buttons -->
+                        <p>
+                            <input type="submit" value="Send" class="button">
+                            <input type="reset" value="Clear" class="button">
+                        </p>
+                    </form>
+                </section>
+            </div>
+        </article>
+    </div>
+
+    <!-- page footer -->
+    <footer id="contact-footer">
+        <p>&copy; 2025 Jemimah Adamu — All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
