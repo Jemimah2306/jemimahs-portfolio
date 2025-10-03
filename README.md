@@ -13,18 +13,19 @@ The portfolio contains the following pages:
 ---
 
 ## Repository Structure
-my-portfolio/
+
+ my-portfolio/
 │
-├─ index.html       # Home page 
-├─ about.html       # About me page with video
-├─ project.html     # Projects page with flip cards
-├─ contact.html     # Contact form page
+├─ index.html # Home page
+├─ about.html # About me page with video
+├─ project.html # Projects page with flip cards
+├─ contact.html # Contact form page
 │
-├─ style.css        # Desktop styles
-├─ tablet.css       # Tablet styles
-├─ phone.css        # Mobile styles
+├─ style.css # Desktop styles
+├─ tablet.css # Tablet styles
+├─ phone.css # Mobile styles
 │
-├─ video.js         # JavaScript file to play/pause video
+├─ video.js # JavaScript file to play/pause video
 ├─ myphoto.jpg # Profile photo
 ├─ introvideo.mp4 # Introduction video (MP4)
 ├─ introvideo.ogv # Introduction video (OGV)
