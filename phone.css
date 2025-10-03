@@ -39,7 +39,7 @@ body {
 .photo-wrapper {
     width: 140px;
     height: 140px;
-    background-color: rgba(255, 255, 255, 0.3); /* background circle color */
+    background-color: #ffaacc; /* background circle color */
     border-radius: 50%; /* makes it a perfect circle */
     margin: 0 auto 15px; /* center horizontally and add bottom spacing */
     text-align: center; 
