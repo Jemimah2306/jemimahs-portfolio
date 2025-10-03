@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Color Scheme: #ff0072, #ffa500, #fbfbfb, #ff54bb, #fffff */
+/* Color Scheme: #ff0072, #ffa500, #fbfbfb, #ff54bb, #fffff, #ffaacc*/
 /* Sets background gradient and base text color for body */
 body {
     background: linear-gradient(90deg, #ff0072 36%, #ffa500 100%);
