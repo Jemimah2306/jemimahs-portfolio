@@ -14,6 +14,7 @@ The portfolio contains the following pages:
 
 ## Repository Structure
 
+```
  my-portfolio/
 │
 ├─ index.html # Home page
@@ -30,6 +31,7 @@ The portfolio contains the following pages:
 ├─ introvideo.mp4 # Introduction video (MP4)
 ├─ introvideo.ogv # Introduction video (OGV)
 ├─ poster.jpg # Poster image for video
+```
 
 ---
 
