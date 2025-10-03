@@ -75,4 +75,4 @@ For inquiries or feedback, you can reach me via email:
 
 ## References
 - Font: Alfa Slab One [Google Fonts](https://fonts.google.com/specimen/Alfa+Slab+One)  
-- Gradient colors: [Colorzilla Gradient Editor](https://www.colorzilla.com/gradient-editor/) and [Adobe Color](https://color.adobe.com/mythemes)
+- Gradient color: [Colorzilla Gradient Editor](https://www.colorzilla.com/gradient-editor/) and [Adobe Color](https://color.adobe.com/create/color-wheel)
