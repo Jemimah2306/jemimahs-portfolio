@@ -18,6 +18,10 @@ body {
 }
 
 /* Header text sizes */
+header h1 {
+    font-size: 28px; /* adjust as needed */
+}
+
 .header h2 {
     font-size: 24px;
 }

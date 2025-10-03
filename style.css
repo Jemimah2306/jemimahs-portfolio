@@ -32,13 +32,11 @@ body {
 }
 
 .header h1 {
-
-    margin-bottom: 5px;
+    margin-bottom: 20px; /* space below h1 */
 }
 
-.header h3 {
-
-    margin-bottom: 15px;
+.header h2 {
+    margin-bottom: 10px; /* space below h2 */
 }
 
 .header p {
