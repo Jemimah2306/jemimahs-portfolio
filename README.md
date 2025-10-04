@@ -35,10 +35,10 @@ The portfolio contains the following pages:
 ---
 
 ## Features
-- **Responsive Design**: Layout adjusts for desktop, tablet, and phone using separate CSS files.  
-**Gradients**: Linear and angled gradients utilized for backgrounds to achieve visual impact.  
-- **Color Scheme**: Consistent color scheme (#ff0072, #ffa500, #fbfbfb, #ff54bb) utilized for text, backgrounds, and buttons.
-- **Interactive Elements**:  Flip cards for projects, play/pause button on videos, and a contact form. 
+- **Responsive Design**: Different CSS files are used for layout adjustment according to desktop, tablet, or phone. 
+**Gradients**: Linear and angled type gradients are used for creating backgrounds for visual attraction.
+- **Color Scheme**:  Uniform color scheme (#ff0072, #ffa500, #fbfbfb, #ff54bb) utilized for text, backgrounds, and buttons.
+- **Interactive Elements**:  Flip cards for projects, play/pause buttons on videos, and an interactive contact form.
 - **Media Integration**: Introduction video embedded in MP4 and OGV formats.
 - **Navigation Menu**: Links to Home, About Me, Projects, and Contact pages, for easy access.
 - **Custom Font**: Alfa Slab One for headings.
@@ -46,10 +46,10 @@ The portfolio contains the following pages:
 ---
 
 ## Design
-- Desktop **960px and above**: Wide screen layout that allows content to be displayed side by side for better readability and visual balance.
-- Tablet **481px to 959px**: Layout adapts by resizing and stacking elements to fit medium-sized screens, ensuring easy navigation and readable text without excessive scrolling.
-- Mobile **480px and below**: Layout is fully vertical and responsive, including stacked sections, resized images/videos, and large tappable buttons for easy user experience on small screens. 
-- **Gradients**: angled linear gradient `linear-gradient(135deg, #ff0072 36%, #ffa500 100%)` used for main backgrounds to create visual depth and cohesion across devices.
+- Desktop **960px and above**: Wide screen layout that allows content to be displayed side by side for better readability and give visual balance.
+- Tablet **481px to 959px**: Layout adapts by resizing and stacking elements to fit medium-sized screens to allow easy navigation and also allow for the text to be sufficiently readable without too much scrolling.
+- Mobile **480px and below**: The layout is fully vertical and responsive, meaning section-wise stacking, image and video resizing, and the other interface buttons are designed large enough to be easily tapped on smaller displays.
+- **Gradients**: angled linear gradient `linear-gradient(135deg, #ff0072 36%, #ffa500 100%)` is applied across main backgrounds that create relative visual depth and constitute a unifying element across devices.
 - **Color scheme**: consistent use of #ff0072, #ffa500, #fbfbfb, #ff54bb for text, buttons, and backgrounds for brand consistency and readability.
 
 ---
